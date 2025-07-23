@@ -1,0 +1,58 @@
+/* ==-== google font link ==-==  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+    font-family: "Inter", sans-serif;
+    font-family: "Noto Serif", serif;
+*/
+
+/* ==-== reset css ==-==  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Noto Serif", serif;
+    background-color: #eee;
+}
+
+/* ==-== header section starts here ==-==  */
+
+.header {
+    width: 90%;
+    margin: 15px auto;
+    height: 71px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 7rem;
+}
+.nav .ul-list {
+    display: flex;
+    gap: 1.5rem;
+}
+.ul-list a {
+    color: black;
+    font-family:"Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.ul-list .nav-link {
+    color:#8987A1;
+}
