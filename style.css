@@ -56,3 +56,32 @@ html, body {
 .ul-list .nav-link {
     color:#8987A1;
 }
+
+  
+ /* ==-=== banner section starts here ==-== */
+
+ .banner {
+    width: 80%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .banner-text h1 {
+    width: 50% ;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+ }
+
+ .banner-text h1 span {
+    color:#E95A08 ;
+ }
+ 
+ .banner-text p {
+    width: 65%;
+    line-height: 1.5;
+    font-size: 22px;
+    color: #8987A1;
+    margin-top: 20px;
+ }
