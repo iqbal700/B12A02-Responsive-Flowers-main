@@ -121,6 +121,7 @@ html, body {
 .plants-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    flex-wrap: wrap;
     margin-top: 50px;
     column-gap: .1rem;
     place-items: center;
