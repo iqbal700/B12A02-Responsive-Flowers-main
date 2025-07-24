@@ -336,3 +336,44 @@ html, body {
     text-decoration: underline;
     font-size: 20px;
 }
+
+/* ===-=== joint section starts here ==-==  */
+
+.joint-section {
+    width: 100vw;
+    height: 450px;
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joint-section h1 {
+    font-size: 40px;
+    font-family: "Noto Serif", serif;
+    color: white;
+}
+
+.joint-input {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.joint-input input {
+    width: 30rem;
+    padding: 15px 20px;
+}
+
+.joint-input .btn {
+    width: 7rem;
+    padding: 16px 0;
+    border: none;
+    margin-left: -1px;
+    margin-top: -1px;
+    
+}
+
